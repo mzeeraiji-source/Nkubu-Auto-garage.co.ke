@@ -8,12 +8,12 @@
 - [x] Reference: `docs/design-preview.html`, all `docs/*.md`
 
 ## M0 Setup  (exit: `npm run dev` + `npm run build` pass)
-- [ ] Next.js 14 + TS + Tailwind tokens, tree per README, `.env.example`, ESLint/Prettier, Vitest
-- [ ] `lib/supabase.ts` (3 exports), `middleware.ts`, Dependabot, `agents-cron.yml`
+- [x] Next.js 14 + TS + Tailwind tokens, tree per README, `.env.example`, ESLint/Prettier, Vitest
+- [x] `lib/supabase.ts` (3 exports), `middleware.ts`, Dependabot, `agents-cron.yml`
 - [ ] Run SQL in order: schema -> schema_patch_roles -> seed -> phase2 -> rls-tests (PASS)
 
 ## M1 Public UI  (exit: all public pages render, 360px ok, offline page works)
-- [ ] TopNav, Drawer, BottomTabs, WhatsAppFab, Footer, Breadcrumbs, theme, language
+- [x] TopNav, Drawer, BottomTabs, WhatsAppFab, Footer, Breadcrumbs, theme, language
 - [ ] Home, Services, Service detail, About, Contact, Gallery, FAQ, Tips, Reviews, Careers, Privacy, Terms, Offline, 404
 - [ ] PWA, service worker, install prompt, SEO + JSON-LD, sitemap, i18n EN/SW
 
